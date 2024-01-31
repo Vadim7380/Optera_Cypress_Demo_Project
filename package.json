@@ -1,0 +1,14 @@
+{
+  "name": "optera_cypress_project",
+  "version": "1.0.0",
+  "description": "Optera_Cypress_Demo_Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vadym_Prykhodko",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^13.6.4"
+  }
+}
