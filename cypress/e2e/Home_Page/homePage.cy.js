@@ -151,6 +151,12 @@ describe ('Home Page', ()=>{
       page.latestFromOptera().should('be.visible'); 
       page.latestFromOptera().should('contain', 'The latest from Optera experts');
 
+      page.sustainabilityButton().should('be.visible');
+      page.sustainabilityDate().should('be.visible');
+      page.sustainabilityOpteraPerspective().should('be.visible');
+      page.sustainabilityTitle().should('be.visible');
+      page.sustainabilityTitle().should('contain', 'Corporate sustainability');
+
       page.selfAssessmentButton().should('be.visible');
       page.selfAssessmentDate().should('be.visible');
       page.selfAssessmentEducationTag().should('be.visible');
@@ -164,18 +170,11 @@ describe ('Home Page', ()=>{
       page.newsTitle().should('be.visible');
       page.newsTitle().should('contain', 'RILA and Optera to develop a framework for more consistent direct-use product emissions reporting');
 
-      page.educationButton().should('be.visible');
-      page.educationDate().should('be.visible');
-      page.educationEducationTag().should('be.visible');
-      page.educationTitle().should('be.visible');
-      page.educationTitle().should('contain', 'The Climate Program Maturity Curve');
-
       page.signUpTitle().should('be.visible');
       page.nameInput().should('be.visible');
       page.organizationInput().should('be.visible');
       page.emailInput().should('be.visible');
       page.subscribeButton().should('be.visible');
-
 
       page.whereverHeadline().should('be.visible');
       page.whereverHeadline().should('contain', 'Wherever you are in meeting your ');
@@ -210,7 +209,6 @@ describe ('Home Page', ()=>{
       page.isoBadge().should('be.visible');
 
       page.copyrightFooter().should('be.visible');
-
 
       page.termsConditionLink().should('be.visible');
       page.trustCenterLink().should('be.visible');

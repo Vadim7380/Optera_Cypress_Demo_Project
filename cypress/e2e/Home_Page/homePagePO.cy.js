@@ -109,10 +109,10 @@ class homePagePO {
     newsPressReleaseTag() { return cy.get('.tags > :nth-child(2)');}; 
     newsTitle() { return cy.get('[href="https://opteraclimate.com/direct-use-product-emissions-partnership-rila/"] > .content > .title');};
 
-    educationButton()  { return cy.get('[href="https://go.opteraclimate.com/climate-program-maturity-curve"] > button');}
-    educationDate()  { return cy.get('[href="https://go.opteraclimate.com/climate-program-maturity-curve"] > .content > .info > .data');}
-    educationEducationTag() { return cy.get('[href="https://go.opteraclimate.com/climate-program-maturity-curve"] > .content > .info > .tags > li');};
-    educationTitle() { return cy.get('[href="https://go.opteraclimate.com/climate-program-maturity-curve"] > .content > .title');};
+    sustainabilityButton()  { return cy.get('[href="https://opteraclimate.com/trailblazing-corporate-sustainability-programs/"] > button');}
+    sustainabilityDate()  { return cy.get('[href="https://opteraclimate.com/trailblazing-corporate-sustainability-programs/"] > .content > .info > .data');}
+    sustainabilityOpteraPerspective() { return cy.get('[href="https://opteraclimate.com/trailblazing-corporate-sustainability-programs/"] > .content > .info > .tags > li');};
+    sustainabilityTitle() { return cy.get('[href="https://opteraclimate.com/trailblazing-corporate-sustainability-programs/"] > .content > .title');};
     
     signUpTitle()   { return cy.get('.module > h3');}
     nameInput()  { return cy.get('#input_3_1');}
